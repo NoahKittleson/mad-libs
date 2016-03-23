@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    <link href="css/forms.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/forms.js"></script>
+    <title>Mad Libs</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in the blanks</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="person1">Person</label>
+            <input id="person1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="noun1">Noun</label>
+            <input id="noun1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="adjective1">Adjective</label>
+            <input id="adjective1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="adjective2">Adjective</label>
+            <input id="adjective2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="verb1">Verb</label>
+            <input id="verb1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="verb2">Verb</label>
+            <input id="verb2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="animalPlural">Animal (plural)</label>
+            <input id="animalPlural" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="celebrity">Celebrity</label>
+            <input id="celebrity" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="place">Place</label>
+            <input id="place" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Show the story</button>
+        </form>
+      </div>
+      <div id="story">
+        <h1>The story</h1>
+        <p>Four score and seven years ago <span class="person1"></span> brought forth on this continent, a new <span class="noun1"></span>, conceived in Liberty, and dedicated to the proposition that all men are created <span class="adjective1"></span>.</p>
+
+        <p>Now we are engaged in a <span class="adjective2"></span> civil war, testing whether that nation, or any nation so conceived and so dedicated, can long <span class="verb1"></span>. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might <span class="verb2"></span>. It is altogether fitting and proper that we should do this.</p>
+
+        <p>But, in a larger sense, we can not dedicate -- we can not consecrate -- we can not hallow -- this ground. The brave <span
+        class="animalPlural"></span>, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the <span class="adjective1"></span>, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us -- that from these honored <span class="animal"></span> we take increased devotion to that cause for which they gave the last full measure of devotion -- that we here highly resolve that these dead shall not have died in vain -- that this nation, under <span class="celebrity"></span>, shall have a new birth of freedom -- and that government of the people, by the people, for the people, shall not perish from <span class="place"></span>.</p>
+      </div>
+    </div>
+  </body>
+</html>
